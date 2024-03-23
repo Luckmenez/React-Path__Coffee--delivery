@@ -1,27 +1,25 @@
-# React + TypeScript + Vite
+<h1>Purpose</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project was made to fufill rocketseat react node path challenge II. Thats a simple page to a coffee e-commerce front-end and the goal is to understand react state management, react forms integration and react context api integration.
 
-Currently, two official plugins are available:
+<h2>Pre-requisite</h2>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+All you need to run this application is node V20
 
-## Expanding the ESLint configuration
+<h1>Getting Started</h1>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+To start this application all you need to do is install node_modules:
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+```bash
+  $npm install
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+And them run this aplication in develeper mode:
+
+```bash
+  $npm run dev
+```
+
+This application run in localhost in port 5174 by default (if this port is taken, then it runs in port 5174 and so on).
+
+<p align="center"> Finished!! 🚀</p>
